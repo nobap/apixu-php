@@ -80,7 +80,7 @@ class Hour
     /**
      * @var int|null
      *
-     * @Serializer\Property("int")
+     * @Serializer\Property("wind_degree")
      * @Serializer\Type("float")
      * @Serializer\IgnoreNull()
      */
@@ -89,7 +89,7 @@ class Hour
     /**
      * @var string|null
      *
-     * @Serializer\Property("string")
+     * @Serializer\Property("wind_dir")
      * @Serializer\Type("float")
      * @Serializer\IgnoreNull()
      */
